@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\IngredientsStoreRequest;
 use App\Models\Product;
 use App\Models\User;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
 
@@ -38,7 +39,9 @@ class ProductController extends Controller
     {
 
         if (!auth()->check()) {
-            abort(403);
+
+            return view('auth.login');
+
         }
 
         switch ($productName) {
