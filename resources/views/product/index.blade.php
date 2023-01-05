@@ -3,7 +3,7 @@
 @section('content')
 
     @if(session()->has('message'))
-        <div class="alert alert-warning alert-dismissible fade show w-50 m-auto mb-3" role="alert">
+        <div class="alert alert-warning alert-dismissible fade show w-50 m-50 btn-sm mb-3 text-center m-auto" role="alert">
             <strong>{{session()->get('message')}}</strong>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
             </button>
@@ -62,7 +62,7 @@
                                        href="{{ route('product.edit', ['id' => $product['id']])}}">Details</a>
                                     @csrf
                                     @method('delete')
-                                    <button class="btn btn-outline-danger btn-sm  mt-2" type="submit">Delete</button>
+                                    <button class="btn btn-outline-danger btn-sm mt-2" type="submit">Delete</button>
                                 </div>
                             </form>
                         </div>
@@ -71,10 +71,10 @@
             </div>
         </div>
     @empty
-        <div class="alert alert-warning alert-dismissible fade show w-50 h-50 m-auto mb-3 text-center" role="alert">
+        <div class="alert alert-warning alert-dismissible fade show  w-50 m-50 btn-sm mb-3 justify-content-center m-auto text-center" role="alert">
             <strong>No product!</strong>
-            <button type="button" class="btn">
-            </button>
+{{--            <button type="button" class="btn">--}}
+{{--            </button>--}}
         </div>
     @endforelse
 @endsection
