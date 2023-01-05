@@ -8,6 +8,7 @@ use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
+use Laravel\Fortify\Fortify;
 
 class ProductController extends Controller
 {
@@ -31,16 +32,16 @@ class ProductController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     * @return string
      */
 
 
-    public function create($productName): \Illuminate\Contracts\View\View|\Illuminate\Contracts\View\Factory|Application
+    public function create($productName)
     {
 
         if (!auth()->check()) {
 
-            return view('auth.login');
+            return redirect()->route('login');
 
         }
 
