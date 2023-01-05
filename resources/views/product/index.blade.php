@@ -71,10 +71,8 @@
             </div>
         </div>
     @empty
-        <div class="alert alert-warning alert-dismissible fade show  w-50 m-50 btn-sm mb-3 justify-content-center m-auto text-center" role="alert">
+        <div class="alert alert-warning fade show  w-50 m-50 btn-sm mb-3 justify-content-center m-auto text-center" role="alert">
             <strong>No product!</strong>
-{{--            <button type="button" class="btn">--}}
-{{--            </button>--}}
         </div>
     @endforelse
 @endsection
