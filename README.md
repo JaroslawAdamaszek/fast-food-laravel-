@@ -2,7 +2,10 @@
 
 Witaj w moim projekcie. Jestem początkującym programistą, projekt miał na calu pogłębienia wiedzy w środowiskach, jakim są Laravel i PHP.
 
-#Opis:
+Link do strony z projektem:
+* [www.fast-food.store](bit.ly/3IyMOiz)
+
+# Opis:
 Generator fast-foodów. Aplikacja umożliwia:
 
 * Rejestracja oraz logowanie użytkownika.
@@ -10,7 +13,7 @@ Generator fast-foodów. Aplikacja umożliwia:
 * Umieszczenie produktu w koszyku.
 * Usuwanie oraz edycja produktu umieszczonego w koszyku.
 
-#Moje zadania w projekcie:
+# Moje zadania w projekcie:
 
 * Instalacja Laravel na kontenerach.
 * Zewnętrzny szablon HTML.
@@ -29,7 +32,7 @@ Generator fast-foodów. Aplikacja umożliwia:
 * Wrzucenie projektu na serwer.
 
     
-#Użyte technologie 
+# Użyte technologie 
 
 * Laravel 9.1
 * Laravel Fortify
