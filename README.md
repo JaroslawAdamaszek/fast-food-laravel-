@@ -3,7 +3,7 @@
 Witaj w moim projekcie. Jestem początkującym programistą, projekt miał na calu pogłębienia wiedzy w środowiskach, jakim są Laravel i PHP.
 
 Link do strony z projektem:
-* #### <a href="bit.ly/3IyMOiz" target="_blank">www.fast-food.store</a>
+* #### <a href="http://www.bit.ly/3IyMOiz" target="_blank">www.fast-food.store</a>
 
 # Opis:
 Generator fast-foodów. Aplikacja umożliwia:
